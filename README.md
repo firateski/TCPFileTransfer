@@ -30,9 +30,9 @@ TCP protokolü kullanarak IP üzerinden dosya transferi yapar. Programın yapabi
 
 |   |   |
 |---|---|
-| ![Dosya Transfer Uygulaması Ekran Görüntüsü](http://firateski.com/images/file_transfer_img001.png) | ![Dosya Transfer Uygulaması Ekran Görüntüsü](http://firateski.com/images/file_transfer_img002.png) |
-| ![Dosya Transfer Uygulaması Ekran Görüntüsü](http://firateski.com/images/file_transfer_img003.png) | ![Dosya Transfer Uygulaması Ekran Görüntüsü](http://firateski.com/images/file_transfer_img004.png) |
-| ![Dosya Transfer Uygulaması Ekran Görüntüsü](http://firateski.com/images/file_transfer_img005.png) | ![Dosya Transfer Uygulaması Ekran Görüntüsü](http://firateski.com/images/file_transfer_img006.png) |
+| ![Dosya Transfer Uygulaması Ekran Görüntüsü](http://firateski.com/images/file_transfer_img0001.png) | ![Dosya Transfer Uygulaması Ekran Görüntüsü](http://firateski.com/images/file_transfer_img0002.png) |
+| ![Dosya Transfer Uygulaması Ekran Görüntüsü](http://firateski.com/images/file_transfer_img0003.png) | ![Dosya Transfer Uygulaması Ekran Görüntüsü](http://firateski.com/images/file_transfer_img0004.png) |
+| ![Dosya Transfer Uygulaması Ekran Görüntüsü](http://firateski.com/images/file_transfer_img0005.png) | ![Dosya Transfer Uygulaması Ekran Görüntüsü](http://firateski.com/images/file_transfer_img0006.png) |
 
 
 #
