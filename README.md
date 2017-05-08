@@ -1,6 +1,6 @@
 # TCPFileTransfer
 ## TCP Dosya Transfer
-TCP protokolü kullanarak IP üzerinden dosya transferi yapar. Programın yapabildiklerini ve ileride yapabileceklerini aşağıda belirttim. Program Visual Studio ortamı üzerinde C# programlama dili kullanarak geliştirilmiştir.
+TCP protokolü kullanarak IP üzerinden dosya transferi yapar. Programın yapabildiklerini ve ileride yapabileceklerini aşağıda belirttim. Program Visual Studio 2017 ortamında C# programlama dili kullanarak geliştirilmiştir.
 
 <b>Desteklenen Diller</b>
 - [x] Türkçe
