@@ -1,0 +1,393 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="btnReceiveFile" xml:space="preserve">
+    <value>Wait for File...</value>
+  </data>
+  <data name="btnSelectFile" xml:space="preserve">
+    <value>Select...</value>
+  </data>
+  <data name="btnSelectSaveLocation" xml:space="preserve">
+    <value>Select...</value>
+  </data>
+  <data name="btnSendFile" xml:space="preserve">
+    <value>Send File</value>
+  </data>
+  <data name="labelFileLocation" xml:space="preserve">
+    <value>File</value>
+  </data>
+  <data name="labelReceiverIPAdress" xml:space="preserve">
+    <value>IP Address</value>
+  </data>
+  <data name="labelReceiverPort" xml:space="preserve">
+    <value>Port</value>
+  </data>
+  <data name="labelSaveLocation" xml:space="preserve">
+    <value>Save Location</value>
+  </data>
+  <data name="labelSenderIPAdress" xml:space="preserve">
+    <value>IP Address</value>
+  </data>
+  <data name="labelSenderPort" xml:space="preserve">
+    <value>Port</value>
+  </data>
+  <data name="MainView" xml:space="preserve">
+    <value>File Transfer</value>
+  </data>
+  <data name="TabPageReceiver" xml:space="preserve">
+    <value>Receive File</value>
+  </data>
+  <data name="TabPageSender" xml:space="preserve">
+    <value>Send File</value>
+  </data>
+  <data name="CancelSending" xml:space="preserve">
+    <value>Cancel Sending</value>
+  </data>
+  <data name="CancelTransfer" xml:space="preserve">
+    <value>Cancel the Transfer</value>
+  </data>
+  <data name="CancelWaiting" xml:space="preserve">
+    <value>Cancel Waiting</value>
+  </data>
+  <data name="FileRequestHasCame" xml:space="preserve">
+    <value>File Request Has Came</value>
+  </data>
+  <data name="FileRequestJustComeUpWaitingUserResponse" xml:space="preserve">
+    <value>File request just came up, waiting user response...</value>
+  </data>
+  <data name="FileSending" xml:space="preserve">
+    <value>File Being Sending...</value>
+  </data>
+  <data name="FileWaitingWasCancelled" xml:space="preserve">
+    <value>File Waiting Was Cancelled by User</value>
+  </data>
+  <data name="WaitingForFile" xml:space="preserve">
+    <value>Waiting for File...</value>
+  </data>
+  <data name="InvalidFilenameMessage" xml:space="preserve">
+    <value>Please select a valid file.</value>
+  </data>
+  <data name="InvalidFilenameMessageTitle" xml:space="preserve">
+    <value>Invalid File</value>
+  </data>
+  <data name="InvalidFormInputMessage" xml:space="preserve">
+    <value>Please check the data you have entered on the form.</value>
+  </data>
+  <data name="InvalidFormInputMessageTitle" xml:space="preserve">
+    <value>Invalid Data Entry</value>
+  </data>
+  <data name="InvalidIpAddressMessage" xml:space="preserve">
+    <value>Please enter a valid IP address.</value>
+  </data>
+  <data name="InvalidIpAddressMessageTitle" xml:space="preserve">
+    <value>Invalid IP Address</value>
+  </data>
+  <data name="InvalidPortNumberMessage" xml:space="preserve">
+    <value>Please enter a valid port number.</value>
+  </data>
+  <data name="InvalidPortNumberMessageTitle" xml:space="preserve">
+    <value>Invalid Port Number</value>
+  </data>
+  <data name="InvalidSaveLocationMessage" xml:space="preserve">
+    <value>Please select a valid save location.</value>
+  </data>
+  <data name="InvalidSaveLocationMessageTitle" xml:space="preserve">
+    <value>Invalid Save Location</value>
+  </data>
+  <data name="SenderConnectError" xml:space="preserve">
+    <value>Could not connect to IP address due to the one of the following reasons:
+
+1- The remote user did not switch the program to the file wait mode.
+2- The IP address or port number wasn't match with the remote user.
+3- The remote user did not configure the port forwarding.
+4- You or remote user have no internet connection.</value>
+  </data>
+  <data name="SenderConnectErrorTitle" xml:space="preserve">
+    <value>Connection Error</value>
+  </data>
+  <data name="Second" xml:space="preserve">
+    <value>second</value>
+  </data>
+  <data name="ReceiverAskForReceiveFileTitle" xml:space="preserve">
+    <value>Do You Want to Receive The File?</value>
+  </data>
+  <data name="ReceiverCancelledByUser" xml:space="preserve">
+    <value>The file receiving cancelled by user.</value>
+  </data>
+  <data name="ReceiverCancelledByUserTitle" xml:space="preserve">
+    <value>Receive Cancelled</value>
+  </data>
+  <data name="ReceiverCompleted" xml:space="preserve">
+    <value>The file received successfully.</value>
+  </data>
+  <data name="ReceiverCompletedTitle" xml:space="preserve">
+    <value>Receive Completed</value>
+  </data>
+  <data name="ReceiverCouldntReadStream" xml:space="preserve">
+    <value>The file could not be received because the data could not be read from the stream.</value>
+  </data>
+  <data name="ReceiverCouldntReadStreamTitle" xml:space="preserve">
+    <value>File Read Error</value>
+  </data>
+  <data name="ReceiverException" xml:space="preserve">
+    <value>An unknown error has occurred while receiving the file:
+
+{0}</value>
+  </data>
+  <data name="ReceiverExceptionTitle" xml:space="preserve">
+    <value>Unknown Error</value>
+  </data>
+  <data name="ReceiverFailed" xml:space="preserve">
+    <value>The file couldn't be received due to that either the remote user cancelled or the connection is lost.</value>
+  </data>
+  <data name="ReceiverFailedTitle" xml:space="preserve">
+    <value>Receive Failed</value>
+  </data>
+  <data name="ReceiverFileRejectedByUser" xml:space="preserve">
+    <value>File receiving was cancelled at your request.</value>
+  </data>
+  <data name="ReceiverFileRejectedByUserTitle" xml:space="preserve">
+    <value>Receive Cancelled</value>
+  </data>
+  <data name="ReceiverIOException" xml:space="preserve">
+    <value>The file couldn't be received due to I/O error which is can cause the invalid save location or other write exceptions.</value>
+  </data>
+  <data name="ReceiverIOException10054" xml:space="preserve">
+    <value>The file couldn't be sent due to either the remote user cancelled or the connection lost.</value>
+  </data>
+  <data name="ReceiverIOException10054Title" xml:space="preserve">
+    <value>The File Could Not Send</value>
+  </data>
+  <data name="ReceiverIOExceptionTitle" xml:space="preserve">
+    <value>I/O Error</value>
+  </data>
+  <data name="SenderArgumentException" xml:space="preserve">
+    <value>The file could not be sent due to the error that occurred in the sender argument. Please try again after resetting your settings and restarting the application.</value>
+  </data>
+  <data name="SenderArgumentExceptionTitle" xml:space="preserve">
+    <value>Argument Exception</value>
+  </data>
+  <data name="SenderArgumentNullException" xml:space="preserve">
+    <value>The file could not be sent because of the invalid argument of sender. Please try again after resetting your settings and restarting the application.</value>
+  </data>
+  <data name="SenderArgumentNullExceptionTitle" xml:space="preserve">
+    <value>Argument Invalid Exception</value>
+  </data>
+  <data name="SenderCancelledByUser" xml:space="preserve">
+    <value>The file sending was cancelled at your request.</value>
+  </data>
+  <data name="SenderCancelledByUserTitle" xml:space="preserve">
+    <value>The Operation Cancelled</value>
+  </data>
+  <data name="SenderCompleted" xml:space="preserve">
+    <value>The file sent successfully.</value>
+  </data>
+  <data name="SenderCompletedTitle" xml:space="preserve">
+    <value>The Operation Completed</value>
+  </data>
+  <data name="SenderCouldntWriteToStream" xml:space="preserve">
+    <value>The file could not be sent due to cannot write data to the stream.</value>
+  </data>
+  <data name="SenderCouldntWriteToStreamTitle" xml:space="preserve">
+    <value>Stream Write Error</value>
+  </data>
+  <data name="SenderDirectoryNotFoundException" xml:space="preserve">
+    <value>The directory you specified could not be found. Please make sure you select a valid save path.</value>
+  </data>
+  <data name="SenderDirectoryNotFoundExceptionTitle" xml:space="preserve">
+    <value>Directory Not Found Exception</value>
+  </data>
+  <data name="SenderException" xml:space="preserve">
+    <value>Unexpected error occurred while sending file:
+
+{0}</value>
+  </data>
+  <data name="SenderExceptionTitle" xml:space="preserve">
+    <value>Unexpected Error Occurred</value>
+  </data>
+  <data name="SenderFailed" xml:space="preserve">
+    <value>Error occurred while sending file.</value>
+  </data>
+  <data name="SenderFailedTitle" xml:space="preserve">
+    <value>The Send Failed</value>
+  </data>
+  <data name="SenderIOException" xml:space="preserve">
+    <value>The file couldn't be sent due to I/O error which is can cause the invalid file location or other read exceptions.</value>
+  </data>
+  <data name="SenderIOExceptionError10054" xml:space="preserve">
+    <value>The file couldn't be sent due to that either the remote user cancelled or the connection is lost.</value>
+  </data>
+  <data name="SenderIOExceptionError10054Title" xml:space="preserve">
+    <value>Connection Error</value>
+  </data>
+  <data name="SenderIOExceptionTitle" xml:space="preserve">
+    <value>I/O Error</value>
+  </data>
+  <data name="SenderPathTooLongException" xml:space="preserve">
+    <value>The file sending couldn't be started due to selected path is too long. Please select a shorter path and try again.</value>
+  </data>
+  <data name="SenderPathTooLongExceptionTitle" xml:space="preserve">
+    <value>Path Too Long Exception</value>
+  </data>
+  <data name="SenderUnauthorizedAccessException" xml:space="preserve">
+    <value>The file couldn't be sent due to the unauthorized exception which can prevent the file to being read. Please try again after restarting the application with administrator privileges.</value>
+  </data>
+  <data name="SenderUnauthorizedAccessExceptionTitle" xml:space="preserve">
+    <value>Unauthorized Exception</value>
+  </data>
+  <data name="ReceiverAskForReceiveFile" xml:space="preserve">
+    <value>Do you want to receive the file "{0}" which is {1} in size?</value>
+  </data>
+  <data name="AppName" xml:space="preserve">
+    <value>File Transfer</value>
+  </data>
+  <data name="GroupBoxAboutApp" xml:space="preserve">
+    <value>About File Transfer App</value>
+  </data>
+  <data name="GroupBoxAboutDeveloper" xml:space="preserve">
+    <value>About Developer</value>
+  </data>
+  <data name="labelAllRightReserved" xml:space="preserve">
+    <value>© {0} {1} - All Right Reserved</value>
+  </data>
+  <data name="labelAppGithubRepository" xml:space="preserve">
+    <value>{0} Github Repository</value>
+  </data>
+  <data name="labelAppNameAndVersion" xml:space="preserve">
+    <value>{0} - Version {1}</value>
+  </data>
+  <data name="labelDeveloperName" xml:space="preserve">
+    <value>Firat Eski / @firateski / firateski@outlook.com</value>
+  </data>
+  <data name="TabPageAbout" xml:space="preserve">
+    <value>About</value>
+  </data>
+  <data name="labelDeveloperGithubProfile" xml:space="preserve">
+    <value>Developer Github Profile: @FiratEski</value>
+  </data>
+  <data name="labelDeveloperWebSite" xml:space="preserve">
+    <value>Developer Website: FiratEski.com</value>
+  </data>
+  <data name="txtFileLocation" xml:space="preserve">
+    <value>Click to select file...</value>
+  </data>
+  <data name="txtSaveLocation" xml:space="preserve">
+    <value>Click to select save location...</value>
+  </data>
+</root>

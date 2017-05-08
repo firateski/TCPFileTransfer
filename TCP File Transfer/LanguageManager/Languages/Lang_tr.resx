@@ -1,0 +1,393 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="btnReceiveFile" xml:space="preserve">
+    <value>Dosya Bekle...</value>
+  </data>
+  <data name="btnSelectFile" xml:space="preserve">
+    <value>Dosya Seç</value>
+  </data>
+  <data name="btnSelectSaveLocation" xml:space="preserve">
+    <value>Kayıt Yeri Seç</value>
+  </data>
+  <data name="btnSendFile" xml:space="preserve">
+    <value>Dosyayı Gönder</value>
+  </data>
+  <data name="labelFileLocation" xml:space="preserve">
+    <value>Dosya</value>
+  </data>
+  <data name="labelReceiverIPAdress" xml:space="preserve">
+    <value>IP Adresi</value>
+  </data>
+  <data name="labelReceiverPort" xml:space="preserve">
+    <value>Port</value>
+  </data>
+  <data name="labelSaveLocation" xml:space="preserve">
+    <value>Kayıt Yeri</value>
+  </data>
+  <data name="labelSenderIPAdress" xml:space="preserve">
+    <value>IP Adresi</value>
+  </data>
+  <data name="labelSenderPort" xml:space="preserve">
+    <value>Port</value>
+  </data>
+  <data name="MainView" xml:space="preserve">
+    <value>Dosya Transfer</value>
+  </data>
+  <data name="TabPageReceiver" xml:space="preserve">
+    <value>Dosya Al</value>
+  </data>
+  <data name="TabPageSender" xml:space="preserve">
+    <value>Dosya Gönder</value>
+  </data>
+  <data name="CancelSending" xml:space="preserve">
+    <value>Göndermeyi İptal Et</value>
+  </data>
+  <data name="CancelTransfer" xml:space="preserve">
+    <value>Transferi İptal Et</value>
+  </data>
+  <data name="CancelWaiting" xml:space="preserve">
+    <value>Beklemeyi İptal Et</value>
+  </data>
+  <data name="FileRequestHasCame" xml:space="preserve">
+    <value>Dosya İsteği Geldi</value>
+  </data>
+  <data name="FileRequestJustComeUpWaitingUserResponse" xml:space="preserve">
+    <value>Dosya isteği geldi, kullanıcıdan yanıt bekleniyor...</value>
+  </data>
+  <data name="FileSending" xml:space="preserve">
+    <value>Dosya Gönderiliyor...</value>
+  </data>
+  <data name="FileWaitingWasCancelled" xml:space="preserve">
+    <value>Dosya Bekleme İptal Edildi</value>
+  </data>
+  <data name="WaitingForFile" xml:space="preserve">
+    <value>Dosya Bekleniyor...</value>
+  </data>
+  <data name="InvalidFilenameMessage" xml:space="preserve">
+    <value>Lütfen geçerli bir dosya seçiniz.</value>
+  </data>
+  <data name="InvalidFilenameMessageTitle" xml:space="preserve">
+    <value>Geçersiz Dosya</value>
+  </data>
+  <data name="InvalidFormInputMessage" xml:space="preserve">
+    <value>Lütfen girdiğiniz bilgileri kontrol ediniz.</value>
+  </data>
+  <data name="InvalidFormInputMessageTitle" xml:space="preserve">
+    <value>Geçersiz Veri Girişi</value>
+  </data>
+  <data name="InvalidIpAddressMessage" xml:space="preserve">
+    <value>Lütfen geçerli bir IP adresi giriniz.</value>
+  </data>
+  <data name="InvalidIpAddressMessageTitle" xml:space="preserve">
+    <value>Geçersiz IP Adresi</value>
+  </data>
+  <data name="InvalidPortNumberMessage" xml:space="preserve">
+    <value>Lütfen geçerli bir port numarası giriniz.</value>
+  </data>
+  <data name="InvalidPortNumberMessageTitle" xml:space="preserve">
+    <value>Geçersiz Port Numarası</value>
+  </data>
+  <data name="InvalidSaveLocationMessage" xml:space="preserve">
+    <value>Lütfen geçerli bir kayıt dizini seçiniz.</value>
+  </data>
+  <data name="InvalidSaveLocationMessageTitle" xml:space="preserve">
+    <value>Geçersiz Kayıt Dizini</value>
+  </data>
+  <data name="ReceiverAskForReceiveFile" xml:space="preserve">
+    <value>"{0}" ismindeki {1} boyutundaki dosyayı almak istiyor musunuz?</value>
+  </data>
+  <data name="ReceiverAskForReceiveFileTitle" xml:space="preserve">
+    <value>Dosya alınsın mı?</value>
+  </data>
+  <data name="ReceiverCancelledByUser" xml:space="preserve">
+    <value>Dosya alımı kullanıcı tarafından iptal edildi.</value>
+  </data>
+  <data name="ReceiverCancelledByUserTitle" xml:space="preserve">
+    <value>İşlem İptal Edildi</value>
+  </data>
+  <data name="ReceiverCompleted" xml:space="preserve">
+    <value>Dosya başarıyla alındı.</value>
+  </data>
+  <data name="ReceiverCompletedTitle" xml:space="preserve">
+    <value>İşlem Tamamlandı</value>
+  </data>
+  <data name="ReceiverCouldntReadStream" xml:space="preserve">
+    <value>Akıştan veri okunamadığı için dosya alınamadı.</value>
+  </data>
+  <data name="ReceiverCouldntReadStreamTitle" xml:space="preserve">
+    <value>Veri Okuma Hatası</value>
+  </data>
+  <data name="ReceiverException" xml:space="preserve">
+    <value>Dosya alınırken bilinmeyen bir sorun oluştu:
+
+{0}</value>
+  </data>
+  <data name="ReceiverExceptionTitle" xml:space="preserve">
+    <value>Beklenmeyen Bir Hata Oluştu</value>
+  </data>
+  <data name="ReceiverFailed" xml:space="preserve">
+    <value>Karşı taraf bağlantıyı iptal ettiği için veya bağlantı koptuğu için dosya alınamadı.</value>
+  </data>
+  <data name="ReceiverFailedTitle" xml:space="preserve">
+    <value>İşlem Tamamlanamadı</value>
+  </data>
+  <data name="ReceiverFileRejectedByUser" xml:space="preserve">
+    <value>Dosya alımını kabul etmediğiniz için dosya alımı iptal edildi.</value>
+  </data>
+  <data name="ReceiverFileRejectedByUserTitle" xml:space="preserve">
+    <value>İşlem İptal Edildi!</value>
+  </data>
+  <data name="ReceiverIOException" xml:space="preserve">
+    <value>Kayıt dizininden veya başka bir nedenden dolayı G/Ç hatası meydana geldiği için dosya alınamadı.</value>
+  </data>
+  <data name="ReceiverIOException10054" xml:space="preserve">
+    <value>Karşı taraf bağlantıyı iptal ettiği için veya bağlantı koptuğu için dosya gönderilemedi.</value>
+  </data>
+  <data name="ReceiverIOException10054Title" xml:space="preserve">
+    <value>Dosya Gönderilemedi</value>
+  </data>
+  <data name="ReceiverIOExceptionTitle" xml:space="preserve">
+    <value>G/Ç Hatası</value>
+  </data>
+  <data name="SenderArgumentException" xml:space="preserve">
+    <value>Gönderme parametrelerinde meydana gelen sorundan dolayı gönderme işlemi yapılamıyor. Lütfen Ayarlarınızı gözden geçirip programı yeniden başlattıktan sonra işleminizi tekrarlayın.</value>
+  </data>
+  <data name="SenderArgumentExceptionTitle" xml:space="preserve">
+    <value>Argüman Hatası</value>
+  </data>
+  <data name="SenderArgumentNullException" xml:space="preserve">
+    <value>Gönderme parametrelerinde geçersiz parametreden dolayı gönderme işlemi yapılamıyor. Lütfen Ayarlarınızı gözden geçirip programı yeniden başlattıktan sonra işleminizi tekrarlayın.</value>
+  </data>
+  <data name="SenderArgumentNullExceptionTitle" xml:space="preserve">
+    <value>Geçersiz Argüman Hatası</value>
+  </data>
+  <data name="SenderCancelledByUser" xml:space="preserve">
+    <value>Dosya gönderme kullanıcı tarafından iptal edildi.</value>
+  </data>
+  <data name="SenderCancelledByUserTitle" xml:space="preserve">
+    <value>İşlem İptal Edildi</value>
+  </data>
+  <data name="SenderCompleted" xml:space="preserve">
+    <value>Dosya başarıyla gönderildi.</value>
+  </data>
+  <data name="SenderCompletedTitle" xml:space="preserve">
+    <value>İşlem Tamamlandı</value>
+  </data>
+  <data name="SenderConnectError" xml:space="preserve">
+    <value>İstenilen IP adresiyle bağlantı sağlanamadı. Olası nedenler:
+
+1- Karşıdaki kullanıcı dosya bekleme moduna geçmemiş olabilir.
+2- IP adresi veya port numarası eşleşmemiş olabilir.
+3- Karşıdaki kullanıcı gerekli port yapılandırmasını yapmamış olabilir.
+4- İnternet bağlantınız veya karşı tarafın internet bağlantısı olmayabilir.</value>
+  </data>
+  <data name="SenderConnectErrorTitle" xml:space="preserve">
+    <value>Bağlantı Hatası</value>
+  </data>
+  <data name="SenderCouldntWriteToStream" xml:space="preserve">
+    <value>Akışa veri yazılamadığı için dosya gönderilemedi.</value>
+  </data>
+  <data name="SenderCouldntWriteToStreamTitle" xml:space="preserve">
+    <value>Veri Yazma Hatası</value>
+  </data>
+  <data name="SenderDirectoryNotFoundException" xml:space="preserve">
+    <value>Belirtilen dizin bulunamadı. Lütfen geçerli bir dosya seçtiğinize emin olun.</value>
+  </data>
+  <data name="SenderDirectoryNotFoundExceptionTitle" xml:space="preserve">
+    <value>Geçersiz Dizin Hatası</value>
+  </data>
+  <data name="SenderException" xml:space="preserve">
+    <value>Dosya gönderilirken bilinmeyen bir hata oluştu:
+
+{0}</value>
+  </data>
+  <data name="SenderExceptionTitle" xml:space="preserve">
+    <value>Beklenmeyen Bir Hata Oluştu</value>
+  </data>
+  <data name="SenderFailed" xml:space="preserve">
+    <value>Dosya gönderilirken hata oluştu.</value>
+  </data>
+  <data name="SenderFailedTitle" xml:space="preserve">
+    <value>Dosya Gönderme Hatası</value>
+  </data>
+  <data name="SenderIOException" xml:space="preserve">
+    <value>Seçtiğiniz dosya bulunamadığından veya dosyayı okuma izni olmadığından dolayı G/Ç hatası meydana geldi ve dosya gönderilemedi.</value>
+  </data>
+  <data name="SenderIOExceptionError10054" xml:space="preserve">
+    <value>Karşı taraf bağlantıyı iptal ettiği için veya bağlantı koptuğu için dosya gönderilemedi.</value>
+  </data>
+  <data name="SenderIOExceptionError10054Title" xml:space="preserve">
+    <value>Bağlantı Hatası</value>
+  </data>
+  <data name="SenderIOExceptionTitle" xml:space="preserve">
+    <value>G/Ç Hatası</value>
+  </data>
+  <data name="SenderPathTooLongException" xml:space="preserve">
+    <value>Dosya yolu çok uzun olduğu için dosya gönderme işlemine başlanamadı. Lütfen daha kısa bir yol ile yeniden deneyin.</value>
+  </data>
+  <data name="SenderPathTooLongExceptionTitle" xml:space="preserve">
+    <value>Dosya Yolu Hatası</value>
+  </data>
+  <data name="SenderUnauthorizedAccessException" xml:space="preserve">
+    <value>Gerekli yetkiler bulunmadığı için dosya gönderilemedi. Programı yönetici olarak çalıştırıp tekrar göndermeyi deneyin.</value>
+  </data>
+  <data name="SenderUnauthorizedAccessExceptionTitle" xml:space="preserve">
+    <value>Güvenlikten Kaynaklı Hata</value>
+  </data>
+  <data name="Second" xml:space="preserve">
+    <value>saniye</value>
+  </data>
+  <data name="AppName" xml:space="preserve">
+    <value>Dosya Transfer</value>
+  </data>
+  <data name="GroupBoxAboutApp" xml:space="preserve">
+    <value>Dosya Transfer Uygulaması Hakkında</value>
+  </data>
+  <data name="GroupBoxAboutDeveloper" xml:space="preserve">
+    <value>Geliştirici Hakkında</value>
+  </data>
+  <data name="labelAllRightReserved" xml:space="preserve">
+    <value>© {0} {1} - Tüm Hakları Saklıdır</value>
+  </data>
+  <data name="labelAppGithubRepository" xml:space="preserve">
+    <value>{0} Github Repository</value>
+  </data>
+  <data name="labelAppNameAndVersion" xml:space="preserve">
+    <value>{0} - Versiyon {1}</value>
+  </data>
+  <data name="labelDeveloperName" xml:space="preserve">
+    <value>Fırat Eşki / @firateski / firateski@outlook.com</value>
+  </data>
+  <data name="TabPageAbout" xml:space="preserve">
+    <value>Hakkında</value>
+  </data>
+  <data name="labelDeveloperGithubProfile" xml:space="preserve">
+    <value>Geliştirici Github Profili: @FiratEski</value>
+  </data>
+  <data name="labelDeveloperWebSite" xml:space="preserve">
+    <value>Geliştirici Web Sitesi: FiratEski.com</value>
+  </data>
+  <data name="txtFileLocation" xml:space="preserve">
+    <value>Dosya seçmek için tıklayın...</value>
+  </data>
+  <data name="txtSaveLocation" xml:space="preserve">
+    <value>Kayıt yeri seçmek için tıklayın...</value>
+  </data>
+</root>
