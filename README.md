@@ -1,5 +1,6 @@
-# TCPFileTransfer
 [![Build Status](https://travis-ci.org/firateski/TCPFileTransfer.svg?branch=master)](https://travis-ci.org/firateski/TCPFileTransfer)
+
+# TCPFileTransfer
 ## TCP Dosya Transfer
 TCP protokolü kullanarak IP üzerinden dosya transferi yapar. Programın yapabildiklerini ve ileride yapabileceklerini aşağıda belirttim. Program Visual Studio 2017 ortamında C# programlama dili kullanarak geliştirilmiştir.
 
